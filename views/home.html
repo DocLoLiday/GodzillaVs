@@ -1,0 +1,37 @@
+    <header class="intro-header" style="background-image: url('img/main-bg.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="site-heading">
+                        <h1>{{title}}</h1>
+                        <hr class="small">
+                        <span class="subheading">{{promo}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div ng-repeat="review in reviews" class="post-preview">
+                    <a href="#/reviews/{{$index}}">
+                        <h2 class="post-title">
+                            {{review.title}}
+                        </h2>
+                        <h3 class="post-subtitle">
+                            {{review.promo}}
+                        </h3>
+                    </a>
+                    <p class="post-meta">{{ review.postDate | date : 'longDate' }}</p>
+                    <hr>
+                </div>
+                <!-- Pager -->
+                <ul class="pager">
+                    <li class="next">
+                        <a href="#">Older Posts &rarr;</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
