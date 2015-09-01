@@ -7,7 +7,8 @@ app.controller('MainController', ['$scope', function($scope) {
     promo: 'A tale of two countries',
     releaseYear: 1954, 
     postDate: new Date('2015', '06', '22'), 
-    header: 'img/GodzillaKingOfTheMonsters.jpg'
+    header: 'img/GodzillaKingOfTheMonsters.jpg',
+    reviewContent: 'partials/GodzillaKotM.html'
   }
 ];
 
