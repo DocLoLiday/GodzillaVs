@@ -3,6 +3,7 @@ app.controller('MainController', ['$scope', function($scope) {
   $scope.promo = 'What kind of city-stomping romp suits your mood?';
   $scope.reviews = [ 
   { 
+    id:0,
     title: 'Godzilla (King of the Monsters)',
     promo: 'A tale of two countries',
     releaseYear: 1954, 
