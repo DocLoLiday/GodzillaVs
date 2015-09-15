@@ -10,6 +10,15 @@ app.controller('MainController', ['$scope', function($scope) {
     postDate: new Date('2015', '06', '22'), 
     header: 'img/GodzillaKingOfTheMonsters.jpg',
     reviewContent: 'partials/GodzillaKotM.html'
+  },
+  { 
+    id:1,
+    title: 'Godzilla Raids Again',
+    promo: 'Gigantus, What A Big Big Ball',
+    releaseYear: 1955, 
+    postDate: new Date('2015', '06', '22'), 
+    header: 'img/GodzillaKingOfTheMonsters.jpg',
+    reviewContent: 'partials/GodzillaKotM.html'
   }
 ];
 
